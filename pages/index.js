@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FaTwitter } from "react-icons/fa";
 import { LiaBasketballBallSolid } from "react-icons/lia";
 import { GrLinkedinOption } from "react-icons/gr";
+import { FaInstagram, FaFacebook } from 'react-icons/fa';
 import { FaGithub } from "react-icons/fa";
 import { BiDownload } from "react-icons/bi";
 import { GoArrowUpRight } from "react-icons/go";
@@ -177,8 +178,8 @@ export default function Home() {
               <div className="hero_btn_box" data-aos="fade-up">
                 <Link href='/img/LoaiQussarCV.pdf' download={'/img/LoaiQussarCV.pdf'} className="download_cv">Download CV <BiDownload /></Link>
                 <ul className="hero_social">
-                  <li><a href="/"><FaTwitter /></a></li>
-                  <li><a href="/"><LiaBasketballBallSolid /></a></li>
+                  <li><a href="https://www.instagram.com/loaixii/"><FaInstagram /></a></li>
+                  <li><a href="https://web.facebook.com/loai.alqussar"><FaFacebook /></a></li>
                   <li><a href="https://www.linkedin.com/in/loaiqussar/"><GrLinkedinOption /></a></li>
                   <li><a href="https://github.com/LoisXII"><FaGithub /></a></li>
                 </ul>
