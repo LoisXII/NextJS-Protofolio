@@ -43,7 +43,7 @@ export default function shop() {
             <div className="shoppagetoptitle">
                 <div className="container">
                     <h3>SHOP ONLINE</h3>
-                    <h2>OUR PRODUCTS</h2>
+                    <h2>MY PRODUCTS</h2>
                 </div>
             </div>
             <div className="shopproducts">

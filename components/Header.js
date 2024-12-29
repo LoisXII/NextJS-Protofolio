@@ -116,7 +116,7 @@ export default function Header() {
                     <span onClick={handleMobileClose} className={mobile ? 'active' : ''}></span>
                     <div className="mobilelogo">
                         <img src="/img/white.png" alt="logo" />
-                        <h2>Vbmcoder</h2>
+                        <h2>LoaiQussar</h2>
                     </div>
                     <ul className="flex gap-1 flex-col flex-left mt-3" onClick={handleMobileClose}>
                         <li><Link href="/"
@@ -141,7 +141,7 @@ export default function Header() {
                             className={activeLink === '/contact' ? 'active' : ''}
                             onClick={() => handleLinkClick('/contact')}>Contact</Link></li>
                     </ul>
-                    <p>Copyright &copy; 2024 | vbmcoder.in</p>
+                    <p>Copyright &copy; 2024 | LoisXII.in</p>
                 </div>
             </nav>
         </header>

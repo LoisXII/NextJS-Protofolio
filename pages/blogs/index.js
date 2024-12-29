@@ -72,7 +72,7 @@ export default function blogs() {
                 <div className="container">
                     <div className="toptitle">
                         <div className="toptitlecont flex">
-                            <h1 data-aos="fade-right">Welcome to <span>Vbm Blogs!</span></h1>
+                            <h1 data-aos="fade-right">Welcome to <span>Loai Blogs!</span></h1>
                             <p data-aos="fade-right">I write about web, mobile development and modern JavaScript frameworks. The best articles, links and news related to web and mobile development </p>
                             <div className="subemail" data-aos="fade-up">
                                 <form action="#" className="flex">
@@ -113,7 +113,7 @@ export default function blogs() {
                                                             <h2><Link href={`/blogs/${blog.slug}`}>{blog.title}</Link></h2>
                                                             <div className="fpostby flex">
                                                                 <img src="/img/coder.jpg" alt="" />
-                                                                <p>By vbm coder</p>
+                                                                <p>By Loai Qussar</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -205,7 +205,7 @@ export default function blogs() {
 
                                                 Bona autem corporis huic sunt, quod posterius posui, similiora. Quod cum ita sit,
                                                 perspicuum est omnis rectas res atque laudabilis eo referri, ut</p>
-                                            <h4 className="flex"><img src="img/coder.jpg" alt="" /><span>by vbm coder</span></h4>
+                                            <h4 className="flex"><img src="img/coder.jpg" alt="" /><span>by Loai Qussar</span></h4>
                                         </div>
                                     </div>
                                 })}
