@@ -5108,3 +5108,85 @@ header.sticky {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.giga-computer-section {
+    background: linear-gradient(135deg, #000 0%, rgba(0, 183, 235, 0.4) 40%, rgba(0, 183, 235, 0.3) 60%, #000 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .hyper-canvas-wrapper {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .computer-display-container {
+    width: 90vw;  /* Further increased width */
+    height: 75vh;  /* Further increased height */
+    max-width: 1200px; /* Further increased max-width */
+    max-height: 900px; /* Further increased max-height */
+    position: relative;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .super-glow-title {
+    font-size: 5rem; /* Significantly increased font size */
+    color: #00b7eb;
+    text-shadow: 2px 2px 15px rgba(0, 183, 235, 0.4);
+    z-index: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.8;
+    text-align: center;
+    animation: super-glow-effect 2s ease-in-out infinite;
+  }
+  
+  @media (max-width: 768px) {
+    .super-glow-title {
+      font-size: 3.5rem; /* Larger font size for mobile screens */
+      top: 15%;
+    }
+  
+    .computer-display-container {
+      width: 95vw; /* Even more width for smaller screens */
+      height: 65vh; /* Even bigger height for mobile screens */
+    }
+  }
+  

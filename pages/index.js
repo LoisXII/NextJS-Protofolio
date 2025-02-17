@@ -222,87 +222,38 @@ export default function Home() {
 
 {/* Computer 3D */}
 
-
-<section
-  className="computer-model-section"
-  style={{
-    background: 'linear-gradient(135deg, #000 0%, rgba(0, 183, 235, 0.4) 40%, rgba(0, 183, 235, 0.3) 60%, #000 100%)',
-    minHeight: '100vh',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    position: 'relative',
-    overflow: 'hidden',
-  }}
->
-  <div
-    className="computer-canvas-wrapper"
-    data-aos="fade-up"
-    style={{
-      width: '100%',
-      height: 'auto',
-      position: 'absolute',
-      top: '50%',
-      transform: 'translateY(-50%)',
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      zIndex: 1,
-    }}
-  >
+<section className="giga-computer-section">
+  <div className="hyper-canvas-wrapper">
     {/* Computer Section */}
-    <div
-      style={{
-        width: '100%',
-        height: '800px',
-        position: 'relative',
-        boxShadow: '0px 15px 40px rgba(0, 0, 0, 0.7)', // Floating shadow effect
-        borderRadius: '20px',
-        zIndex: 2,
-        background: 'rgba(0, 0, 0, 0.7)', // Retained see-through black container
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
+    <div className="computer-display-container">
       <ComputersCanvas />
     </div>
 
     {/* Title Section */}
-    <h1
-      className="canvas-title"
-      style={{
-        fontSize: '5rem', // Large font size
-        color: '#00b7eb',
-        textShadow: '2px 2px 15px rgba(0, 183, 235, 0.4)', // Visible text shadow
-        zIndex: 0, // Title remains behind the computer
-        position: 'absolute',
-        top: '10%', // Adjusted to ensure visibility above the computer
-        left: '50%',
-        transform: 'translate(-50%, 0)',
-        opacity: 0.5, // Slightly higher opacity for better readability
-        textAlign: 'center',
-        animation: 'glowEffect 2s ease-in-out infinite', // Retained glow animation
-      }}
-    >
-      Innovate & Create
-    </h1>
+    <h1 className="super-glow-title">Innovate & Create</h1>
   </div>
 
   <style jsx>{`
-    @keyframes glowEffect {
+    @keyframes super-glow-effect {
       0% {
-        text-shadow: 0px 0px 15px rgba(0, 183, 235, 0.2), 0px 0px 25px rgba(0, 183, 235, 0.15), 0px 0px 35px rgba(0, 183, 235, 0.1);
+        text-shadow: 0px 0px 15px rgba(0, 183, 235, 0.2),
+          0px 0px 25px rgba(0, 183, 235, 0.15),
+          0px 0px 35px rgba(0, 183, 235, 0.1);
       }
       50% {
-        text-shadow: 0px 0px 25px rgba(0, 183, 235, 0.4), 0px 0px 35px rgba(0, 183, 235, 0.3), 0px 0px 45px rgba(0, 183, 235, 0.2);
+        text-shadow: 0px 0px 25px rgba(0, 183, 235, 0.4),
+          0px 0px 35px rgba(0, 183, 235, 0.3),
+          0px 0px 45px rgba(0, 183, 235, 0.2);
       }
       100% {
-        text-shadow: 0px 0px 15px rgba(0, 183, 235, 0.2), 0px 0px 25px rgba(0, 183, 235, 0.15), 0px 0px 35px rgba(0, 183, 235, 0.1);
+        text-shadow: 0px 0px 15px rgba(0, 183, 235, 0.2),
+          0px 0px 25px rgba(0, 183, 235, 0.15),
+          0px 0px 35px rgba(0, 183, 235, 0.1);
       }
     }
   `}</style>
 </section>
+
 
 
 
@@ -388,6 +339,11 @@ export default function Home() {
               <LuMedal />
               <h2>My Experience</h2>
             </div>
+            <div className="exper_card" data-aos="fade-up">
+              <span>2025 - Present</span>
+                <h3>Acabes Jordan</h3>
+                <p>Technical Associate - Quality Control (Full-time)</p>
+              </div>
             <div className="exper_cards">
               <div className="exper_card" data-aos="fade-up">
                 <span>2023 - 2024</span>

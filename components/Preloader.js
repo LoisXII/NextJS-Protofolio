@@ -65,12 +65,8 @@ const Preloader = ({ isLoading }) => {
                     <span>O</span>
                     <span>A</span>
                     <span>I</span>
+                    <span> </span>
                     <span>Q</span>
-                    <span>U</span>
-                    <span>S</span>
-                    <span>S</span>
-                    <span>A</span>
-                    <span>R</span>
                 </div>
             </div>
         </div>
